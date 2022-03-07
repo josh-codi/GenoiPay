@@ -62,6 +62,12 @@
 }
 
 
+@media only screen and (max-width: 445px){
+    .header .right_side *{
+        font-size: 0.7rem;
+    }
+}    
+
 @media only screen and (max-width: 999px){
     .header .menuContainer{
         display: flex;

@@ -9,7 +9,7 @@ export default function Home() {
     <div className='home page'><br/>
       <Header contentName={'home'}/>
 
-      <section className='mainContent'><br/>
+      <section className='mainContent'>
 
         <div className='allWallets'>
           <AllWallet cards={''}/>

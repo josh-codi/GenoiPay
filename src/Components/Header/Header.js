@@ -62,7 +62,7 @@ export default function Header(props) {
 
           <UserPlants/>
 
-          <img alt='img' src="https://img.icons8.com/small/30/000000/appointment-reminders--v1.png" className='notification'/>
+          <img alt='img' src="https://img.icons8.com/small/20/000000/appointment-reminders--v1.png" className='notification'/>
 
           <UserProfile/>
         </section>
