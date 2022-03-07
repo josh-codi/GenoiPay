@@ -1,0 +1,28 @@
+.invite_friend{
+    /* border: 4px solid red; */
+    background-color: ghostwhite;
+    border-radius: 20px;
+    padding: 1rem;
+    margin:auto;
+    width: 80% !important;
+}
+
+.invite_friend section{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: black;
+}
+.invite_friend section b{
+    color: black;
+}
+.invite_friend section p{
+    color: #086d8d;
+}
+.invite_friend section img{
+    margin-right: 1rem;
+}
+.invite_friend button{
+    color: ghostwhite;
+    background: #086d8d !important;
+}

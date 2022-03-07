@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem 0px 1rem;
+}
+.header .right_side{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.header .menuContainer{
+    display: none;
+}
+
+.header .menuButton{
+    height: 28px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+    /* position: relative;
+    right:2rem; */
+}
+.header .menuButton div{
+    width: 30px;
+    height: 4px;
+    background-color: #086d8d;
+}
+
+.header .closeButton{
+    height: 28px;
+    width: 70px;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    z-index: 500;
+}
+
+/* RESPONSIVENESS................................. */
+@media only screen and (max-width: 1300px){
+    .header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .right_side{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 560px){
+    .header .right_side{
+        border: 1px solid #086d8d;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 999px){
+    .header .menuContainer{
+        display: flex;
+    }
+    
+    
+}
+
+
+
+@media only screen and (max-width: 681px){
+    .header .right_side{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    
+}

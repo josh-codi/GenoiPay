@@ -1,0 +1,32 @@
+.wallet .mainContent .wallet_subHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet .mainContent .inner{
+    width: 100%;
+    display: flex !important;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.wallet_subHeader button{
+    width: fit-content !important;
+    background: #086d8d;
+    color: ghostwhite;
+    font-weight: 600;
+    padding: 0.7rem;
+}
+.wallet .mainContent .wallet_dialog{
+    border-radius: 10px;
+    background: rgba(248, 248, 255, 0.4);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+/* RESPONSIVENESS ....................................... */

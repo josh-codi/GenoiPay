@@ -1,0 +1,13 @@
+.userPlant{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 110px !important;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+}
+.userPlant p {
+    display: flex;
+    justify-content: center;
+}

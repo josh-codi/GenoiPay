@@ -1,0 +1,24 @@
+.currencies{
+    /* border: 2px solid blue; */
+
+}
+
+.currencies .search_container .search_bar{
+    padding: 0.3rem;
+    width: 200px;
+}
+
+.currencies .top_sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.currencies .select{
+    width: 70px !important;
+    /* border:2px solid red; */
+}
+.currencies .select select{
+    width: 100%;
+}
