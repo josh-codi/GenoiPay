@@ -8,14 +8,6 @@ import Wallet from '../Wallet';
 import './SideBar.css'
 
 export default function SideBar() {
-  useEffect(()=>{
-    window.document.addEventListener('click',()=>{
-      let bar = window.document.getElementById('side_bar');
-      bar.classList.remove('hide_sideBar');
-      bar.classList.add('show_sideBar');
-    });
-  })
-  
   
     const Content =()=>{
         return(
