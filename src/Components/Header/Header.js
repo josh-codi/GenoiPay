@@ -31,11 +31,12 @@ export default function Header(props) {
   
   const menuHandler=()=>{
     setMenu(!menu);
-    
+    window.addEventListener('resize', ()=>{
+      setMenu(true)
+    });
   };
-  window.document.addEventListener('resize', ()=>{
-    setMenu(true)
-  });
+  
+
   return (
     <div className='header'>
         <section className='flex' style={{"alignItems":"center"}}>
